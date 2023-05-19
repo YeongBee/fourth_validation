@@ -225,7 +225,6 @@ public class ValidationItemControllerV2 {
 
 //        itemValidation.validate(item, bindingResult); -> @Validated 로 대체 가능, 자동으로 적용됨
 
-
         // 검증에 실패하면 다시 입력 폼으로
         if(bindingResult.hasErrors()){
             log.info("errors = {}",bindingResult);
